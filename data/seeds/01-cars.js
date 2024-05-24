@@ -21,8 +21,8 @@ const cars = [
         model: 'g-wagon',
         mileage: 100
     }
-]
+];
 
 exports.seed = function(knex) {
-    return knex('cars').insert(cars)
-}
+    return knex('cars').insert(cars);
+};
